@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import GlobalStyles from './themes/GlobalStyle'
+import GlobalStyle from './themes/GlobalStyle.js'
 import About from './About.js'
 import Projects from './Projects.js'
 import made from './pics/made.png'
@@ -55,7 +55,7 @@ const CntctHeading = styled.h1`
 export default function App(props){
     return(
         <AppWrapper>
-            <GlobalStyles />
+            <GlobalStyle />
             <About />
             <ProjsHeading>My Dev Work</ProjsHeading>
             <ProjsWrapper>

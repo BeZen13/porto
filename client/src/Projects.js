@@ -12,6 +12,8 @@ const ProjWrapper = styled.div`
 `;
 const ProjTitle = styled.h2`
     text-align: center;
+    color: white;
+
 `;
 const ProjImg = styled.img`
     max-width: 100%;
@@ -21,6 +23,7 @@ const ProjImg = styled.img`
 const ProjLink = styled.a`
     color: #000000;
     text-decoration: none;
+    color: white;
 `
 
 export default function Projects(props){

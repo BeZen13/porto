@@ -4,7 +4,6 @@ import styled from 'styled-components'
 
 //import samshead from "../pics/headshot.jpg"
 
-//changed height on about wrapper
 
 const AboutWrapper = styled.div`
     width: 300px;

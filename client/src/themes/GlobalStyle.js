@@ -17,16 +17,19 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         background-color: rgb(100 120 100);
+        background-image: url(${bg});
+        color: white;
     }
     body {
         font-family: "'Simplifica, "Ubuntu";
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        color: white;
 
 
         width: 100vw;
         height: 100vh;
-        background-image: url(${bg});
+       
         background-repeat: no-repeat;
         background-position: center -175px;
         background-attachment: scroll;
@@ -49,7 +52,7 @@ export const media = {
     mobile: `(max-width: ${breakpoint.mobile})`,
     tabletPortrait: `(min-width: ${breakpoint.mobile})`,
     tabletLandscape: `(min-width: ${breakpoint.tabletPortrait})`,
-    desktop: `(min-width: ${breakpoint.tabletLandscape})`,
+    desktop: `(mi-wnidth: ${breakpoint.tabletLandscape})`,
     desktopLarge: `(min-width: ${breakpoint.desktop})`
 };
 
