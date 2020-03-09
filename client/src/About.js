@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-//import samshead from "../pics/headshot.jpg"
+import samshead from "../pics/sam.jpeg"
 
 
 const AboutWrapper = styled.div`
@@ -52,7 +52,7 @@ export default function About(props){
     return(
         <AboutWrapper>
             <HeadFrame>
-                <Head />
+                <Head src={samshead}/>
             </HeadFrame>
             <Name>Samuel Joseph Betzen</Name>
             <JobTitle>Full Stack Software Engineer</JobTitle>
