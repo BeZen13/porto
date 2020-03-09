@@ -4,9 +4,11 @@ import styled from 'styled-components'
 
 //import samshead from "../pics/headshot.jpg"
 
+//changed height on about wrapper
+
 const AboutWrapper = styled.div`
     width: 300px;
-    height 350px;
+    height: 450px; 
     box-shadow: 5px 5px 15px #000000;
     margin: 0 auto 0 auto;
     background-color: rgb(236, 236, 236, 0.75)
@@ -38,11 +40,13 @@ const JobTitle = styled.h3`
     position: relative;
     top: 70px;
     text-align: center;
-    margin: 0 auto 0 auto
+    margin: 0 auto 0 auto;
 `;
 const Skills = styled.div`
     display: flex;
     disply-direction: column;
+    position: relative;
+    top: 70px;
 `
 
 export default function About(props){
@@ -60,6 +64,8 @@ export default function About(props){
                     <li>Node.JS</li>
                     <li>HTML</li>
                     <li>CSS</li>
+                </ul>
+                <ul>
                     <li>Express</li>
                     <li>JSON</li>
                     <li>GIT</li>

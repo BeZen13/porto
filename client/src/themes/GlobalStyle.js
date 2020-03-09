@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     html, body {
         margin: 0;
         padding: 0;
-        background-color: regb(20 30 34);
+        background-color: rgb(100 120 100);
     }
     body {
         font-family: "'Simplifica, "Ubuntu";
@@ -48,7 +48,7 @@ const breakpoint = {
 export const media = {
     mobile: `(max-width: ${breakpoint.mobile})`,
     tabletPortrait: `(min-width: ${breakpoint.mobile})`,
-    tabletLandscape: `(mi-nwidth: ${breakpoint.tabletPortrait})`,
+    tabletLandscape: `(min-width: ${breakpoint.tabletPortrait})`,
     desktop: `(min-width: ${breakpoint.tabletLandscape})`,
     desktopLarge: `(min-width: ${breakpoint.desktop})`
 };

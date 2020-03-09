@@ -80,7 +80,7 @@ export default function App(props){
                     img={peng}
                 />
             </ProjsWrapper>
-            <CntctHeading>Follow Me</CntctHeading>
+            <CntctHeading>Find Me</CntctHeading>
             <CntctWrapper>
                 <a href="mailto:samuelbetzen@gmail.com">Email</a>
                 <a href="https://www.linkedin.com/in/samuel-betzen-30b8b3140/">LinkedIn</a>
