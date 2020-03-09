@@ -27,11 +27,11 @@ export default function Projects(props){
     return(
         <ProjWrapper>
             <ProjTitle>
-                <ProjLink>
-                    href=(props.link)
+                <ProjLink
+                    href={props.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                </ProjLink>
+                >{props.title}</ProjLink>
             </ProjTitle>
             <ProjImg src={props.img} />
         </ProjWrapper>

@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import samshead from "../pics/headshot.jpg"
 
-const AboutWrapper = syled.div`
+//import samshead from "../pics/headshot.jpg"
+
+const AboutWrapper = styled.div`
     width: 300px;
     height 350px;
     box-shadow: 5px 5px 15px #000000;

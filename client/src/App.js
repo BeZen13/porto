@@ -6,8 +6,8 @@ import About from './About.js'
 import Projects from './Projects.js'
 import made from './pics/made.png'
 import med from './pics/med.jpg'
-import peng from './peng.png'
-import phind from './phind.png'
+import peng from './pics/peng.png'
+import phind from './pics/phind.png'
 
 const AppWrapper = styled.div`
     display: flexd;
@@ -52,7 +52,7 @@ const CntctHeading = styled.h1`
     color: rgb(182, 185, 186);
 `;
 
-export default function AppWrapper(props){
+export default function App(props){
     return(
         <AppWrapper>
             <GlobalStyles />
@@ -69,12 +69,12 @@ export default function AppWrapper(props){
                     title="Solar Rep App"
                     img={made}
                 />
-                <Project
+                <Projects
                     link="http://herb-site.surge.sh"
                     title="MotherMedicinal Herb DataBase"
                     img={med}
                 />
-                <Project 
+                <Projects
                     link="https://github.com/BeZen13/Penguin-Party"
                     title="Console-RPG PengiunParty!"
                     img={peng}
@@ -89,3 +89,4 @@ export default function AppWrapper(props){
         </AppWrapper>
     )
 }
+
