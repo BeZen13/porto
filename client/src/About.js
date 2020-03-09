@@ -11,7 +11,7 @@ const AboutWrapper = styled.div`
     box-shadow: 5px 5px 15px #000000;
     margin: 0 auto 0 auto;
     background-color: rgb(236, 236, 236, 0.75)
-    border-radius
+    border-radius: 10px
 `;
 const Head = styled.img`
     position: relative;
