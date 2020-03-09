@@ -1,0 +1,28 @@
+{
+  "name": "porto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.4",
+    "styled": "^1.0.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeZen13/Samuels-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BeZen13/Samuels-Portfolio/issues"
+  },
+  "homepage": "https://github.com/BeZen13/Samuels-Portfolio#readme",
+  "description": ""
+}
