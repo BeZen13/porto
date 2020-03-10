@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
-
-import samshead from "../pics/sam.jpeg"
+import samshead from "./pics/sam.jpeg"
 
 
 const AboutWrapper = styled.div`
@@ -15,14 +13,17 @@ const AboutWrapper = styled.div`
 `;
 const Head = styled.img`
     position: relative;
+    justify-content: center;
     top: 0px;
-    left: -20px;
-    max-width: 120%;
-    max-height: 120%;
+   
+    max-width: 135%;
+    max-height: 135%;
 `;
 const HeadFrame = styled.div`
     position: relative;
+    justify-content: center;
     top: 30px;
+    left: 20%;
     border-radius: 50%;
     overflow: hidden;
     width: 175px;
@@ -46,6 +47,7 @@ const Skills = styled.div`
     disply-direction: column;
     position: relative;
     top: 70px;
+    left: 30px;
 `
 
 export default function About(props){
