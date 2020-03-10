@@ -4,6 +4,7 @@ import samshead from "./pics/sam.jpeg"
 
 
 const AboutWrapper = styled.div`
+      
     width: 300px;
     height: 450px; 
     box-shadow: 5px 5px 15px #000000;
@@ -15,7 +16,6 @@ const Head = styled.img`
     position: relative;
     justify-content: center;
     top: 0px;
-   
     max-width: 135%;
     max-height: 135%;
 `;

@@ -1,4 +1,4 @@
-import { media } from './GlobalStyle.js'
+import { media } from '../themes/GlobalStyle.js'
 
 const theme = {
     colors: {

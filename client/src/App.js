@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import GlobalStyle from './themes/GlobalStyle.js'
 import About from './About.js'
 import Projects from './Projects.js'
@@ -10,7 +9,7 @@ import peng from './pics/peng.png'
 import phind from './pics/phind.png'
 
 const AppWrapper = styled.div`
-    display: flexd;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding 75px 0 0 0;

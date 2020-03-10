@@ -19,20 +19,14 @@ const GlobalStyle = createGlobalStyle`
         background-color: rgb(100 120 100);
         background-image: url(${bg});
         color: white;
-   
         font-family: "'Simplifica, "Ubuntu";
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: white;
-
-
         width: 100vw;
         height: 100vh;
-       
-        background-repeat: no-repeat;
-        background-position: center -175px;
+        background-position: center;
         background-attachment: scroll;
-        background-size: auto 100%;
         background-color: rgb(20 30 34);
     }
 
@@ -53,7 +47,7 @@ export const media = {
     tabletPortrait: `(min-width: ${breakpoint.mobile})`,
     tabletLandscape: `(min-width: ${breakpoint.tabletPortrait})`,
     desktop: `(min-width: ${breakpoint.desktop})`,
-    desktopLarge: `(min-width: ${breakpoint.desktop})`
+    desktopLarge: `(min-width: ${breakpoint.desktopLarge})`
 };
 
 export default GlobalStyle;
