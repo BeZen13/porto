@@ -64,7 +64,7 @@ export default function App(props){
                     img={phind}
                 />
                 <Projects
-                    link="http://made-solar-app.surge.sh"
+                    link="http://made-solar-app.herokuapp.com"
                     title="Solar Rep App"
                     img={made}
                 />
