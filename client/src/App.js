@@ -7,6 +7,7 @@ import made from './pics/made.png'
 import med from './pics/med.jpg'
 import peng from './pics/peng.png'
 import phind from './pics/phind.png'
+import blood from './pics/blood.png'
 
 const AppWrapper = styled.div`
     display: flex;
@@ -78,6 +79,11 @@ export default function App(props){
                     title="Console-RPG PengiunParty!"
                     img={peng}
                 />
+                <Projects
+                    link="https://github.com/BeZen13/gestational"
+                    title="One Blood: Gestational Diabetes Tracker"
+                    img={blood}
+                />    
             </ProjsWrapper>
             <CntctHeading>Find Me</CntctHeading>
             <CntctWrapper>
