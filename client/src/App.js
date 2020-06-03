@@ -7,7 +7,7 @@ import made from './pics/made.png'
 import med from './pics/med.jpg'
 import peng from './pics/peng.png'
 import phind from './pics/phind.png'
-import blood from './pics/blood.png'
+import blood from './pics/BloodLove.jpg'
 
 const AppWrapper = styled.div`
     display: flex;
@@ -70,7 +70,7 @@ export default function App(props){
                     img={made}
                 />
                 <Projects
-                    link="http://herb-site.surge.sh"
+                    link="https://github.com/BeZen13/herb-site"
                     title="MotherMedicinal Herb DataBase"
                     img={med}
                 />
@@ -91,6 +91,7 @@ export default function App(props){
                 <a href="https://www.linkedin.com/in/samuel-betzen-30b8b3140/">LinkedIn</a>
                 <a href="https://github.com/BeZen13">GitHub</a>
             </CntctWrapper>
+            
         </AppWrapper>
     )
 }
